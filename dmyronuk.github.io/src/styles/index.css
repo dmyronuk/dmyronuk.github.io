@@ -1,0 +1,59 @@
+html, body{
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 15px;
+  color: #3e3e3e;
+}
+
+html, body, h1, h2, h3, h4, h5{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.main-flex-container{
+  width: 100%;
+}
+
+.content-mid-container{
+  position: relative;
+  max-width: 900px;
+  padding: 0 1rem;
+  flex: 1;
+}
+
+.link-arrow-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link-arrow-container img{
+  width: 5rem;
+}
+
+.inverted{
+  filter: invert(1);
+}
+
+.faded{
+  filter: invert(0.5);
+}
+
+.default-light-grey{
+  color: #515151;
+}
+
+/* anchor divs*/
+#projects, #employment, #education, #awards{
+  position: relative;
+  top: -2rem;
+}

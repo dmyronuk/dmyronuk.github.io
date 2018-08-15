@@ -1,7 +1,22 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.a0b7d8d3.js",
-  "main.js.map": "static/js/main.a0b7d8d3.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.7482b7d6.css",
+  "main.css.map": "static/css/main.7482b7d6.css.map",
+  "main.js": "static/js/main.2d68905a.js",
+  "main.js.map": "static/js/main.2d68905a.js.map",
+  "static/media/CSS.png": "static/media/CSS.9063bbfc.png",
+  "static/media/Java.png": "static/media/Java.74e943d8.png",
+  "static/media/Javascript.png": "static/media/Javascript.7f130501.png",
+  "static/media/Node.png": "static/media/Node.9011d622.png",
+  "static/media/React.png": "static/media/React.d783f6d4.png",
+  "static/media/Sass.svg": "static/media/Sass.8e766e95.svg",
+  "static/media/angular.png": "static/media/angular.1a632d2b.png",
+  "static/media/breakthrough.png": "static/media/breakthrough.7e30ead1.png",
+  "static/media/bridges.jpg": "static/media/bridges.267cad40.jpg",
+  "static/media/github.svg": "static/media/github.76d344f0.svg",
+  "static/media/grey_link_arrow.png": "static/media/grey_link_arrow.951ed4d0.png",
+  "static/media/jQuery.png": "static/media/jQuery.984be8b9.png",
+  "static/media/learnpiano_demo.gif": "static/media/learnpiano_demo.d402f0da.gif",
+  "static/media/maria.png": "static/media/maria.5a40d8e6.png",
+  "static/media/mongo.png": "static/media/mongo.6755ddb9.png",
+  "static/media/ngrx.svg": "static/media/ngrx.74b41650.svg"
 }
