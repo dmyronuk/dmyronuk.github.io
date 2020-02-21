@@ -1,39 +1,41 @@
 import React, {Component} from "react";
-import GithubIcon from "../icons/github.svg";
-import MailIcon from "../icons/mail_b.png";
-import PhoneIcon from "../icons/phone_a.png";
-import LinkArrow from "../icons/link_arrow.png";
+import githubIcon from "../icons/github.svg";
+import mailIcon from "../icons/mail_b.png";
+import linkArrow from "../icons/link_arrow.png";
 
-import JavascriptIcon from "../icons/Javascript.png";
-import CSSIcon from "../icons/CSS.png";
-import HTMLIcon from "../icons/HTML.png";
-import ExpressIcon from "../icons/Express.png";
+import jsIcon from "../icons/Javascript.png";
+import cssIcon from "../icons/CSS.png";
+import htmlIcon from "../icons/HTML.png";
 import jQueryIcon from "../icons/jQuery.png";
-import MochaIcon from "../icons/Mocha.svg";
-import NodeIcon from "../icons/Node.png";
-import JavaIcon from "../icons/Java.png";
-import ReactIcon from "../icons/React.png";
-import SassIcon from "../icons/Sass.svg";
-import PSQLIcon from "../icons/PSQL.png";
-import KnexIcon from "../icons/Knex.png";
+import reactIcon from "../icons/React.png";
+import nodeIcon from "../icons/Node.png";
+import javaIcon from "../icons/Java.png";
+import angularIcon from "../icons/angular.png";
+import ngrxIcon from '../icons/ngrx.svg';
+import sassIcon from "../icons/Sass.svg";
+import mariaIcon from "../icons/maria.png";
+import mongoIcon from "../icons/mongo.png";
 
 class Summary extends Component{
   constructor(props){
     super(props)
     this.state = {
+      bio: `Junior full stack web developer with experience in e-commerce and data-driven enterprise application development.
+      Motivated by curiosity and the desire to take on new challenges. Focussed on creating seamless user experiences and
+      delivering clean, performant code.`,
       skills: [
-        {name: "Javascript", imgSrc: JavascriptIcon},
-        {name: "NodeJS", imgSrc: NodeIcon},
-        {name: "ExpressJS", imgSrc: ExpressIcon},
-        {name: "ReactJS", imgSrc: ReactIcon},
-        {name: "Mocha", imgSrc: MochaIcon},
+        {name: "Javascript", imgSrc: jsIcon},
+        {name: "NodeJS", imgSrc: nodeIcon},
+        {name: "Angular", imgSrc: angularIcon},
+        {name: "NgRx", imgSrc: ngrxIcon},
+        {name: "React", imgSrc: reactIcon},
         {name: "jQuery", imgSrc: jQueryIcon},
-        {name: "HTML5", imgSrc: HTMLIcon},
-        {name: "CSS3", imgSrc: CSSIcon},
-        {name: "Sass", imgSrc: SassIcon},
-        {name: "Java", imgSrc: JavaIcon},
-        {name: "Postgres", imgSrc: PSQLIcon},
-        {name: "Knex", imgSrc: KnexIcon},
+        {name: "HTML5", imgSrc: htmlIcon},
+        {name: "CSS3", imgSrc: cssIcon},
+        {name: "Sass", imgSrc: sassIcon},
+        {name: "Java", imgSrc: javaIcon},
+        {name: "MariaDB", imgSrc: mariaIcon},
+        {name: "MongoDB", imgSrc: mongoIcon},
       ]
     }
   }
@@ -46,15 +48,11 @@ class Summary extends Component{
             <h1>D'Arcy Myronuk</h1>
             <div className="contact-container">
               <a href="mailto:darcy.myronuk@gmail.com">
-                <img alt="Email" src={MailIcon} />
+                <img alt="Email" src={mailIcon} />
                 <div>darcy.myronuk@gmail.com</div>
               </a>
-              <a href="tel:1-647-745-4894">
-                <img alt="Phone" src={PhoneIcon} />
-                <div>647-745-4894</div>
-              </a>
               <a href="https://github.com/dmyronuk">
-                <img alt="Github" src={GithubIcon} />
+                <img alt="Github" src={githubIcon} />
                 <div>dmyronuk</div>
               </a>
             </div>
@@ -64,9 +62,7 @@ class Summary extends Component{
               Summary
             </h2>
             <div>
-              Junior full stack web developer with a background in music and education.
-              Driven by curiosity and the desire to take on new challenges.  Interested in creating
-              seamless user experiences and finding new ways of applying technology to creative domains.
+              {this.state.bio}
             </div>
           </section>
 
@@ -85,8 +81,8 @@ class Summary extends Component{
           </section>
 
           <div className="link-arrow-container inverted flex-end">
-            <a href="/#projects" >
-              <img alt="Awards Link" src={LinkArrow} />
+            <a href="/#employment" >
+              <img alt="Awards Link" src={linkArrow} />
             </a>
           </div>
         </div>

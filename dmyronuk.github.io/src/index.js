@@ -9,8 +9,6 @@ import "./styles/employment.css";
 import "./styles/education.css";
 import "./styles/awards.css";
 import "./styles/footer.css";
-import App from './App';
-import registerServiceWorker from "./registerServiceWorker";
+import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
-registerServiceWorker();

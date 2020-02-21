@@ -1,7 +1,4 @@
 import React, {Component} from "react";
-import MontcrestLogo from "../icons/montcrest_logo.png";
-import SoularLogo from "../icons/soular_logo.png";
-import PerficientLogo from "../icons/perficient.png";
 
 class Employment extends Component{
   constructor(props){
@@ -9,43 +6,56 @@ class Employment extends Component{
     this.state = {
       jobs: [
         {
-          startDate: "Sept 2018",
+          startDate: "Mar 2019",
           endDate: "Current",
+          employerName: "Insured Connect",
+          employerURL: "https://www.ins-connect.com/",
+          role: "Front End Developer",
+          duties: [
+            `Front end feature lead on hierarchy tool project, built to help insurance companies manage
+            their organizational structures and facilitate app onboarding`,
+            "Implemented CMS platform built on REST services for insurance carrier promotional content",
+            "Enhanced websocket-based chat/notifications codebase using NgRx/flux to centralize app state",
+            "Tech Stack: Angular 7-9, Typescript, Elasticsearch, MariaDB, MongoDB, Sass",
+            "Libraries: RxJS, NgRx, ngx-datatable, ng-bootstrap",
+            "Tools: Kibana, AWS, Kubernetes, YouTrack, Bitbucket"
+          ]
+        },
+        {
+          startDate: "Sept 2018",
+          endDate: "Feb 2019",
           employerName: "Perficient",
-          employerLogo: PerficientLogo,
           employerURL: "https://www.perficient.com/",
           role: "Intern Consulting",
           duties: [
-            "Worked as front-end web developer on agile team building enterprise ecommerce website",
+            "Front end web developer on agile team building enterprise ecommerce website",
             "Contributed to both the project's support stream, maintaining the existing codebase and the development stream, adding enhancements/features",
             "Tech Stack: WebSphere Commerce V8, Java, IBM DB2, Javascript, jQuery, Sass",
             "Tools: Rational Application Developer, Jira, Bitbucket"
           ]
         },
         {
+          startDate: "Sept 2013",
+          endDate: "June 2018",
+          employerName: "Montcrest School",
+          employerURL: "https://www.montcrest.on.ca/",
+          role: "Piano Instructor",
+          duties: [
+            "Taught music lessons to students aged 5-13 focusing on pop and jazz",
+            "Created lesson plans covering topics including performance, theory and ear training",
+            "Coached students at annual recitals",
+          ]
+        },
+        {
           startDate: "Feb 2012",
-          endDate: "Current",
+          endDate: "Aug 2019",
           employerName: "Soular Productions",
-          employerLogo: SoularLogo,
           employerURL: "http://www.soular.ca/",
           role: "Keyboardist",
           duties: [
             "Performed on piano, organ and synthesizer with 9-piece R&B band",
             "Transcribed recordings and created arrangements using Sibelius notation software",
-            "Clients included the Toronto Blue Jays (Jays Care Foundation Curve Ball), PricewaterhouseCoopers, The Children's Aid Foundation of Canada and theWomen's Executive Network",
-          ]
-        },
-        {
-          startDate: "Sept 2013",
-          endDate: "June 2018",
-          employerName: "Montcrest School",
-          employerLogo: MontcrestLogo,
-          employerURL: "https://www.montcrest.on.ca/",
-          role: "Piano Instructor",
-          duties: [
-            "Taught music lessons to students aged 5-13 focusing on pop and jazz styles",
-            "Developed curriculum covering topics including performance, theory and ear training",
-            "Coached students at annual recitals",
+            "Clients included the Toronto Blue Jays (Jays Care Foundation Curve Ball), PricewaterhouseCoopers, The Children's Aid Foundation of Canada and the Women's Executive Network",
           ]
         }
       ]

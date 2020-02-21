@@ -83,7 +83,7 @@ class Education extends Component{
           </section>
 
           <div className="link-arrow-container">
-            <a href="/#awards" >
+            <a href="/#projects" >
               <img alt="Awards Link" src={LinkArrow} />
             </a>
           </div>

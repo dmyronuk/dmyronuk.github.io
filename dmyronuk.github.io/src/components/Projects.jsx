@@ -123,7 +123,7 @@ class Projects extends Component{
           </section>
 
           <div className="link-arrow-container">
-            <a href="/#employment" >
+            <a href="/#awards" >
               <img alt="Awards Link" src={LinkArrow} />
             </a>
           </div>
