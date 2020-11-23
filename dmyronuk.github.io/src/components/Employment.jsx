@@ -14,6 +14,7 @@ class Employment extends Component{
           duties: [
             `Front end feature lead on hierarchy tool project, built to help insurance companies manage
             their organizational structures and facilitate app onboarding`,
+            "Created visualizations of insurance policy data using chart.js/ng2-charts",
             "Implemented CMS platform built on REST services for insurance carrier promotional content",
             "Enhanced websocket-based chat/notifications codebase using NgRx/flux to centralize app state",
             "Tech Stack: Angular 7-9, Typescript, Elasticsearch, MariaDB, MongoDB, Sass",

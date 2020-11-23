@@ -20,9 +20,9 @@ class Summary extends Component{
   constructor(props){
     super(props)
     this.state = {
-      bio: `Junior full stack web developer with experience in e-commerce and data-driven enterprise application development.
-      Motivated by curiosity and the desire to take on new challenges. Focussed on creating seamless user experiences and
-      delivering clean, performant code.`,
+      bio: `Intermediate front-end web developer with experience in e-commerce and data-driven enterprise
+        application development. Motivated by curiosity and the desire to take on new challenges. Focused on
+        creating seamless user experiences and delivering clean, performant code.`,
       skills: [
         {name: "Javascript", imgSrc: jsIcon},
         {name: "NodeJS", imgSrc: nodeIcon},
