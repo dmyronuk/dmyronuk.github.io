@@ -1,4 +1,4 @@
-import { Quaternion, Euler } from 'three';
+import { Quaternion, Euler } from "three";
 
 const getInitialState = () => ({
   isDragging: false,
@@ -12,15 +12,15 @@ const rotateCube = (cube, dx, dy) => {
     .setFromEuler(euler);
 
   cube.quaternion.multiplyQuaternions(rotationQuaternion, cube.quaternion);
-}
+};
 
 export const initControls = (canvas, cube) => {
   const state = getInitialState();
-  canvas.addEventListener('mousedown', (event) => startDrag(state, event));
-  canvas.addEventListener('mousemove', (event) => handleDrag(state, event, cube));
-  canvas.addEventListener('mouseup', () => endDrag(state));
-  canvas.addEventListener('mouseleave', () => endDrag(state));
-}
+  canvas.addEventListener("mousedown", (event) => startDrag(state, event));
+  canvas.addEventListener("mousemove", (event) => handleDrag(state, event, cube));
+  canvas.addEventListener("mouseup", () => endDrag(state));
+  canvas.addEventListener("mouseleave", () => endDrag(state));
+};
 
 const startDrag = (state, event) => {
   state.isDragging = true;
@@ -37,7 +37,7 @@ const handleDrag = (state, event, cube) => {
     state.mouseX = event.clientX;
     state.mouseY = event.clientY;
   }
-}
+};
 
 const endDrag = (state) => {
   state.isDragging = false;

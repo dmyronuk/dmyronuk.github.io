@@ -1,37 +1,37 @@
-.employment-container{
+.employment-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background: #ebeeee;
 }
 
-.employment-education-item{
+.employment-education-item {
   margin-bottom: 2rem;
 }
 
-.employment-container section{
+.employment-container section {
   border-bottom: 1px solid #cacaca;
 }
-.employment-education-item header{
+.employment-education-item header {
   display: flex;
   flex-direction: row;
 }
 
-.employment-education-item header a:hover{
+.employment-education-item header a:hover {
   text-decoration: underline;
 }
 
-.employment-education-role{
+.employment-education-role {
   color: #737373;
 }
 
-.employment-education-date{
+.employment-education-date {
   margin-left: auto;
   font-weight: bold;
 }
 
-@media (max-width: 600px){
-  .employment-education-date{
+@media (max-width: 600px) {
+  .employment-education-date {
     width:40vw;
     text-align: right;
   }

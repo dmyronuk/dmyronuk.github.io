@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/jsx-closing-bracket-location": "error",
+    "react/no-unescaped-entities": "off",
+    "comma-dangle": "error",
+    "key-spacing": "error",
+    "semi": "error",
+    "quotes": ["error", "double"]
+  }
+}

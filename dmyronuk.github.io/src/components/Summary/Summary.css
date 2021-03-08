@@ -1,95 +1,84 @@
-.summary-container{
+.summary-container {
   background: #222233;
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   height: 100vh;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .summary-container{
     height: auto;
   }
 }
 
-.summary-flex-column{
-  display: flex;
-  flex-direction: column;
+.summary-flex-column {
+  overflow: hidden;
 }
 
-.title-container{
+.title-container {
   margin-top: 8vh;
   flex: 0.2
 }
 
-.summary-container h1{
+.summary-container h1 {
   font-size: 4rem;
   text-align: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .summary-container h1{
     font-size: 3rem;
   }
 }
 
-.summary-container a{
+.summary-container a {
   color: white;
 }
 
-.contact-container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-container img{
+.contact-container img {
   height: 2rem;
   width: 2rem;
   margin-right: 0.4rem;
   filter: invert(1);
 }
 
-.contact-container a{
+.contact-container a {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.contact-container div{
+.contact-container div {
   margin-right: 0.5rem;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .contact-container{
     justify-content: space-evenly;
   }
 
-  .contact-container div{
+  .contact-container div {
     display: none;
   }
 
-  .contact-container a{
+  .contact-container a {
     margin: 0.25rem 0;
   }
 }
 
-.summary-body{
+.summary-body {
   flex: 0.3;
   max-width: 900px;
 }
 
-.summary-body h2{
+.summary-body h2 {
   margin: 1.5rem 0 1rem 0;
 }
 
-.summary-body div{
+.summary-body div {
   width: 90%;
   margin: auto;
 }
 
-.flex-end{
+.flex-end {
   margin-top: auto;
 }

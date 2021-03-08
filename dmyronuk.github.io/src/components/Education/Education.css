@@ -1,11 +1,8 @@
-.education-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.education-container {
   background: #ebeeee;
 }
 
-.education-item{
+.education-item {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
@@ -13,22 +10,22 @@
   border-bottom: 1px solid #cacaca;
 }
 
-.education-item:last-child{
+.education-item:last-child {
   border-bottom: none;
 }
 
-.education-item-left{
+.education-item-left {
   width: 20rem;
 }
 
-.education-item-left a:hover{
+.education-item-left a:hover {
   text-decoration: underline;
 }
 
-.education-item-right{
+.education-item-right {
   flex: 1;
 }
 
-.school-program{
+.school-program {
   color: #737373;
 }

@@ -1,19 +1,14 @@
-.awards-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.awards-container {
   background: #222233;
   height: calc(100vh - 4rem);
   color: white;
 }
 
-.awards-item{
-  display: flex;
-  flex-direction: row;
+.awards-item {
   margin-bottom: 1rem;
 }
 
-.award-img-container{
+.award-img-container {
   height: 30vh;
   object-fit: fill;
   box-shadow:
@@ -21,49 +16,44 @@
     -0.2rem 0.2rem 0.9rem 0.2rem #1b1b28;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .award-img-container{
     display: none;
   }
 }
 
-.award-img-container img{
+.award-img-container img {
   height: 100%;
 }
 
-.award-content-container{
+.award-content-container {
   margin-left: 2rem;
   flex: 1;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .award-content-container{
     margin-left: 0;
   }
 }
 
-.award-content-container header{
+.award-content-container header {
   border-bottom: 1px solid white;
 }
 
-.award-content-container h3{
+.award-content-container h3 {
   font-size: 1.4rem;
 }
 
-.award-item{
+.award-item {
   padding: 0.5rem;
   margin: 0.5rem 0;
 }
 
-.award-topline{
-  display: flex;
-  flex-direction: row;
-}
-
-.award-date{
+.award-date {
   margin-left:auto;
 }
 
-.faded-blue{
+.faded-blue {
   color: #aaccff;
 }
