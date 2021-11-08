@@ -12,7 +12,7 @@ import {
   WebGLRenderer
 } from "three";
 import { initControls } from "./controls";
-import angularIcon from "../../icons/angular.svg";
+import angularIcon from "../../icons/angular.png";
 import javaIcon from "../../icons/java.png";
 import jsIcon from "../../icons/js.png";
 import nodeIcon from "../../icons/node.png";

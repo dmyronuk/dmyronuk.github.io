@@ -1,7 +1,22 @@
 export const JOBS_STATIC = [
   {
-    startDate: "Mar 2019",
+    startDate: "Apr 2021",
     endDate: "Current",
+    employerName: "Tignis",
+    employerURL: "https://tignis.com/",
+    role: "UI Developer",
+    duties: [
+      "Built web-based IDE for custom programming language powered by Monaco Editor",
+      "Implemented syntax highlighting, code autocompletion, asynchronous validation, hover tooltips and custom search",
+      "Integrated editor with graphing feature, allowing visualization of data streams from physical sensors",
+      "Responsible for delivery of features from ideation/wireframing to implementation and testing",
+      `Technologies: React, Typescript, Redux, Material-UI, Plotly.js, Monaco Editor, Ace Editor, React 
+        Testing Library, Jest, Balsalmiq`
+    ]
+  },  
+  {
+    startDate: "Mar 2019",
+    endDate: "Apr 2021",
     employerName: "Insured Connect",
     employerURL: "https://www.ins-connect.com/",
     role: "Front End Developer",
