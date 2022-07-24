@@ -6,14 +6,16 @@ export const JOBS_STATIC = [
     employerURL: "https://tignis.com/",
     role: "UI Developer",
     duties: [
-      "Built web-based IDE for custom programming language powered by Monaco Editor",
-      "Implemented syntax highlighting, code autocompletion, asynchronous validation, hover tooltips and custom search",
-      "Integrated editor with graphing feature, allowing visualization of data streams from physical sensors",
+      "Built web-based IDE for custom programming language",
+      "Implemented syntax highlighting, code autocompletion, async validation, hover tooltips and search",
+      "Integrated code editor with graphing features, enabling manipulation and visualization of data streams",
+      `Implemented front-end for ML-driven multivariate analysis feature, including visualizations to identify
+      potential defects in industrial manufacturing processes`,
       "Responsible for delivery of features from ideation/wireframing to implementation and testing",
-      `Technologies: React, Typescript, Redux, Material-UI, Plotly.js, Monaco Editor, Ace Editor, React 
-        Testing Library, Jest, Balsalmiq`
+      `Technologies: React, Typescript, Redux, Material-UI, Plotly.js, Monaco Editor, Ace Editor, React
+        Testing Library, Jest, Balsamiq`
     ]
-  },  
+  },
   {
     startDate: "Mar 2019",
     endDate: "Apr 2021",

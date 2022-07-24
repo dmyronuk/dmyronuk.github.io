@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.efde120f.chunk.css",
-    "main.js": "/static/js/main.01fbe036.chunk.js",
-    "main.js.map": "/static/js/main.01fbe036.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.afc6bb29.js",
-    "runtime-main.js.map": "/static/js/runtime-main.afc6bb29.js.map",
-    "static/js/2.f59c3282.chunk.js": "/static/js/2.f59c3282.chunk.js",
-    "static/js/2.f59c3282.chunk.js.map": "/static/js/2.f59c3282.chunk.js.map",
+    "main.css": "/static/css/main.7ad28bf2.css",
+    "main.js": "/static/js/main.6d54b229.js",
+    "static/media/learnpiano_demo.gif": "/static/media/learnpiano_demo.dd49249ffa3d0f4fd38d.gif",
+    "static/media/breakthrough.png": "/static/media/breakthrough.5c6bbf541e27a4a05233.png",
+    "static/media/bridges.jpg": "/static/media/bridges.543c6b5211846ad57765.jpg",
+    "static/media/grey_link_arrow.png": "/static/media/grey_link_arrow.0eadf903531b4c4f2c3b.png",
+    "static/media/react.png": "/static/media/react.d278d9a4e289c3dac2ac.png",
+    "static/media/node.png": "/static/media/node.79912908e7f59a3c9f64.png",
+    "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/angular.png": "/static/media/angular.ea5c6fed50329cda07e2.png",
+    "static/media/js.png": "/static/media/js.3abb3de3f1e1d537ad2e.png",
+    "static/media/github.svg": "/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
+    "static/media/sass.svg": "/static/media/sass.3bd84b23ee7ca645327dc4c04edeb72c.svg",
     "index.html": "/index.html",
-    "static/css/main.efde120f.chunk.css.map": "/static/css/main.efde120f.chunk.css.map",
-    "static/js/2.f59c3282.chunk.js.LICENSE.txt": "/static/js/2.f59c3282.chunk.js.LICENSE.txt",
-    "static/media/angular.ea5c6fed.png": "/static/media/angular.ea5c6fed.png",
-    "static/media/breakthrough.5c6bbf54.png": "/static/media/breakthrough.5c6bbf54.png",
-    "static/media/bridges.543c6b52.jpg": "/static/media/bridges.543c6b52.jpg",
-    "static/media/github.d1bb13ce.svg": "/static/media/github.d1bb13ce.svg",
-    "static/media/grey_link_arrow.0eadf903.png": "/static/media/grey_link_arrow.0eadf903.png",
-    "static/media/java.f5dd86c3.png": "/static/media/java.f5dd86c3.png",
-    "static/media/js.3abb3de3.png": "/static/media/js.3abb3de3.png",
-    "static/media/learnpiano_demo.dd49249f.gif": "/static/media/learnpiano_demo.dd49249f.gif",
-    "static/media/node.79912908.png": "/static/media/node.79912908.png",
-    "static/media/react.d278d9a4.png": "/static/media/react.d278d9a4.png",
-    "static/media/sass.3bd84b23.svg": "/static/media/sass.3bd84b23.svg"
+    "main.7ad28bf2.css.map": "/static/css/main.7ad28bf2.css.map",
+    "main.6d54b229.js.map": "/static/js/main.6d54b229.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.afc6bb29.js",
-    "static/js/2.f59c3282.chunk.js",
-    "static/css/main.efde120f.chunk.css",
-    "static/js/main.01fbe036.chunk.js"
+    "static/css/main.7ad28bf2.css",
+    "static/js/main.6d54b229.js"
   ]
 }
