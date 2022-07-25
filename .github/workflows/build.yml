@@ -1,0 +1,28 @@
+name: test-action
+on:
+  push:
+    branches:
+      - master
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: build
+        run: |
+          cd dmyronuk.github.io
+          npm install
+          npm run build
+      - name: copy files
+        run: cp -r ./dmyronuk.github.io/build/* .
+      - name: commit changes
+        run: |
+          git add .
+          git config --global user.name "GitHub Action"
+          git commit -m 'automated build'
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

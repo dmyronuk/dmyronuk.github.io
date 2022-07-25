@@ -25,7 +25,7 @@ export const JOBS_STATIC = [
     duties: [
       "Developed features for a web app providing life insurance data and insights to distributors and agents",
       `Integrated REST APIs for aggregating and querying insurance policy data with Angular
-        components, leveraging ngx-datatable and ng2-charts/chart.js for visualizations`,
+        components, leveraging ngx-datatable for tabular views and chart.js for visualizations`,
       "Built out front-end of custom CMS for in-app insurance carrier promotional content",
       "Enhanced websocket-based chat/notifications codebase using NgRx/flux to centralize app state",
       "Tech Stack: Angular 7-9, Typescript, Elasticsearch, MariaDB, MongoDB, Sass",
