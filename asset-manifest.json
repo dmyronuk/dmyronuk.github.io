@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ad28bf2.css",
-    "main.js": "/static/js/main.c1ccbfa6.js",
+    "main.css": "/static/css/main.04479d2f.css",
+    "main.js": "/static/js/main.7f2ebe62.js",
     "static/media/learnpiano_demo.gif": "/static/media/learnpiano_demo.dd49249ffa3d0f4fd38d.gif",
-    "static/media/breakthrough.png": "/static/media/breakthrough.5c6bbf541e27a4a05233.png",
-    "static/media/bridges.jpg": "/static/media/bridges.543c6b5211846ad57765.jpg",
     "static/media/grey_link_arrow.png": "/static/media/grey_link_arrow.0eadf903531b4c4f2c3b.png",
     "static/media/react.png": "/static/media/react.d278d9a4e289c3dac2ac.png",
     "static/media/node.png": "/static/media/node.79912908e7f59a3c9f64.png",
@@ -14,11 +12,11 @@
     "static/media/github.svg": "/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
     "static/media/sass.svg": "/static/media/sass.3bd84b23ee7ca645327dc4c04edeb72c.svg",
     "index.html": "/index.html",
-    "main.7ad28bf2.css.map": "/static/css/main.7ad28bf2.css.map",
-    "main.c1ccbfa6.js.map": "/static/js/main.c1ccbfa6.js.map"
+    "main.04479d2f.css.map": "/static/css/main.04479d2f.css.map",
+    "main.7f2ebe62.js.map": "/static/js/main.7f2ebe62.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ad28bf2.css",
-    "static/js/main.c1ccbfa6.js"
+    "static/css/main.04479d2f.css",
+    "static/js/main.7f2ebe62.js"
   ]
 }
