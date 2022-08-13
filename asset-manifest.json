@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04479d2f.css",
-    "main.js": "/static/js/main.7f2ebe62.js",
+    "main.js": "/static/js/main.3245fbb7.js",
     "static/media/learnpiano_demo.gif": "/static/media/learnpiano_demo.dd49249ffa3d0f4fd38d.gif",
     "static/media/grey_link_arrow.png": "/static/media/grey_link_arrow.0eadf903531b4c4f2c3b.png",
     "static/media/react.png": "/static/media/react.d278d9a4e289c3dac2ac.png",
@@ -13,10 +13,10 @@
     "static/media/sass.svg": "/static/media/sass.3bd84b23ee7ca645327dc4c04edeb72c.svg",
     "index.html": "/index.html",
     "main.04479d2f.css.map": "/static/css/main.04479d2f.css.map",
-    "main.7f2ebe62.js.map": "/static/js/main.7f2ebe62.js.map"
+    "main.3245fbb7.js.map": "/static/js/main.3245fbb7.js.map"
   },
   "entrypoints": [
     "static/css/main.04479d2f.css",
-    "static/js/main.7f2ebe62.js"
+    "static/js/main.3245fbb7.js"
   ]
 }
