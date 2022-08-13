@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { PROJECTS_STATIC } from "../../data/projects.static";
 import GithubIcon from "../../icons/github.svg";
-import LinkArrow from "../../icons/grey_link_arrow.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -50,12 +49,6 @@ const Projects = () => {
             )}
           </div>
         </section>
-
-        <div className="link-arrow-container">
-          <a href="/#awards">
-            <img alt="Awards Link" src={LinkArrow} />
-          </a>
-        </div>
       </div>
     </div>
   );

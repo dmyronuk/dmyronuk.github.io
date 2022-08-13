@@ -15,9 +15,6 @@ const Header = () => (
     <div>
       <a href="/#projects">Projects</a>
     </div>
-    <div>
-      <a href="/#awards">Awards</a>
-    </div>
   </header>
 );
 
