@@ -6,9 +6,9 @@ import linkArrow from "../../icons/link_arrow.png";
 import "./Summary.css";
 
 const Summary = () => {
-  const bio = `Intermediate front-end web developer with experience in e-commerce and data-driven enterprise
-    application development. Motivated by curiosity and the desire to take on new challenges. Focused on
-    creating seamless user experiences and delivering clean, performant code.`;
+  const bio = `Front-end web developer with experience in data-driven application development. Motivated by
+  curiosity and the desire to take on new challenges. Focused on delivering seamless user
+  experiences and clean, performant code.`;
 
   return (
     <div id="summary" className="flex-row justify-content-center summary-container">
